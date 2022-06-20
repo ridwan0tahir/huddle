@@ -61,8 +61,20 @@ button:hover {
     align-items: center;
 }
 
+.brand-logo {
+    width: 200px;
+    height: 40px;
+}
+
+.brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .brand-btn {
     background: var(--not-so-white-);
+    margin-left: 20px;
 }
 
 #hero {
@@ -281,6 +293,17 @@ footer span {
     header {
         background: var(--pale-cyan-) url(./imgs/bg-hero-mobile.svg) no-repeat center;
         background-size: cover;
+    }
+
+    .brand-logo {
+        width: 150px;
+        height: 30px;
+    }
+
+    .brand-btn {
+        width: 100px;
+        padding: 10px;
+        font-size: 0.6rem;
     }
 
     #hero {
