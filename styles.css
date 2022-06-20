@@ -342,6 +342,7 @@ footer span {
     }
 
     .footer-main p {
+        position: static;
         text-align: center;
         margin-bottom: 20px;
     }
